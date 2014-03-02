@@ -54,9 +54,11 @@
     
     section.banner {
       padding-top: 150px;
-      padding-bottom: 50px;
+      padding-bottom: 90px;
       background: url('images/banner.jpg');
       background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
       color: #F70240;
       text-align: center;
     
@@ -78,10 +80,12 @@
       overflow: hidden;
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
+
     }
 
     section.about h2 {
       text-align: center;
+      padding-top: 30px;
 
     }
 
@@ -93,15 +97,19 @@
 
     section.workshop h2 {
       text-align: center;
+      padding-top: 30px;
     }
 
-    section.workshop ol {
+    section.workshop ul li {
       font-size: 14px;
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      list-style-image: url('images/heart.png');
     }
 
   section.gallery h2 {
       text-align: center;
+      padding-top: 30px;
     }
 
   section.gallery {
@@ -130,7 +138,7 @@
     
 
     section.footer {
-      font-size: 10px;
+      font-size: 9px;
       text-align: center;
     }
     
@@ -259,5 +267,39 @@
   -webkit-transform: translateY(0px) translateX(0px);
   -moz-transform: translateY(0px) translateX(0px);
   transform: translateY(0px) translateX(0px);
+}
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('MonoSocialIconsFont-1.10.eot');
+    src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 40px;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    
 }
 
