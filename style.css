@@ -64,14 +64,10 @@
       color: #F70240;
       text-align: center;
     }
-    
-    section.banner p {
-      font-size: 22px;
-    }
+  
     
     section.banner h1 {
-      font-weight: 200;
-      text-transform: uppercase;
+      padding-top: 90px;
       font-size: 70px;
       text-shadow:-1px -1px 0 white;
     }
