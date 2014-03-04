@@ -63,6 +63,7 @@
       background-position: center;
       color: #F70240;
       text-align: center;
+
     }
   
     
@@ -78,6 +79,7 @@
       overflow: hidden;
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
+
 
     }
 
@@ -144,6 +146,11 @@
       font-size: 9px;
       text-align: center;
     }
+
+    section.footer p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 10px;
+    }
     
     section.box {
       padding: 50px 100px;
@@ -179,6 +186,7 @@
       top: 0;
       left: 0;
       width: 100%;
+      border-bottom: 1px dotted black;
     }
 
     .menu li {
