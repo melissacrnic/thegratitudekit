@@ -48,7 +48,7 @@
    
    img.gallery {
       border-radius: 20%;
-      width: 200px;
+      width: 180px;
       padding: 5px;
       margin: 10px;
 
@@ -56,8 +56,8 @@
     
     section.banner {
       padding-top: 150px;
-      padding-bottom: 40px;
-      background: url('images/banner.jpg');
+      padding-bottom: 100px;
+      background: url('images/banner2.jpg');
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: center;
